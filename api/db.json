@@ -1,0 +1,20 @@
+{
+    "students": [
+      {"id":"s1","name":"Uday","email":"uday@student.com","password":"pass1","branch":"CSE","careerInterest":"IT","completedModules":[],"progress":0},
+      {"id":"s2","name":"Raghu","email":"raghu@student.com","password":"pass2","branch":"ECE","careerInterest":"Core","completedModules":[],"progress":0},
+      {"id":"s3","name":"Akash","email":"akash@student.com","password":"pass3","branch":"ME","careerInterest":"Core","completedModules":[],"progress":0},
+      {"id":"s4","name":"Sasi","email":"sasi@student.com","password":"pass4","branch":"EEE","careerInterest":"IT","completedModules":[],"progress":0},
+      {"id":"s5","name":"ranjith","email":"Ranjith@student.com","password":"pass5","branch":"CSE","careerInterest":"IT","completedModules":[],"progress":0}
+    ],
+    "admins": [
+      {"id":"a1","name":"Admin","email":"admin@college.edu","password":"admin123"}
+    ],
+    "modules": [
+      {"id":"m1","title":"Aptitude Basics","branch":["All"],"youtubeLink":"https://www.youtube.com/watch?v=L-EFQ5q6RvM&pp=ygUdYXB0aXR1ZGUgYmFzaWNzIGZvciBiZWdpbm5lcnPSBwkJBgoBhyohjO8%3D","completedBy":[]},
+      {"id":"m2","title":"Basic of Python","branch":["CSE","ECE"],"youtubeLink":"https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3","completedBy":[]},
+      {"id":"m3","title":"OS Basics","branch":["All"],"youtubeLink":"https://www.youtube.com/watch?v=vBURTt97EkA&list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O","completedBy":[]},
+      {"id":"m4","title":"Communication Skills","branch":["All"],"youtubeLink":"https://www.youtube.com/watch?v=2xdUQadfmqg&list=PLm_MSClsnwm-AIEbpyIxoTT8t7UzkHSYC","completedBy":[]}
+    ],
+    "approvals":[]
+  }
+  
