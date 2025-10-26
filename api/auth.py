@@ -1,6 +1,6 @@
 from fastapi import APIRouter, HTTPException
-from tinydb import TinyDB, Query, MemoryStorage
-
+from tinydb import TinyDB, Query
+from tinydb.storages import MemoryStorage
 import uuid
 
 router = APIRouter()
