@@ -1,9 +1,10 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from auth import router as auth_router
-from modules import router as modules_router
-from students import router as students_router
-from chatbot import router as chatbot_router
+from .auth import router as auth_router
+from .modules import router as modules_router
+from .students import router as students_router
+from .chatbot import router as chatbot_router
+
 
 app = FastAPI()
 
